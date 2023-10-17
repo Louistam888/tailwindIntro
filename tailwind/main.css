@@ -10,7 +10,7 @@ html {
   /* font-family: "Montserrat", sans-serif; */
 }
 
-.navbar {
+.navBar {
   @apply flex items-center justify-between w-full fixed top-0 z-20 h-[5.4rem] p-[3.2rem];
 }
 
@@ -43,16 +43,15 @@ html {
 }
 
 .carButton {
-  @apply absolute top-[85%] left-[50%] flex flex-col lg:flex-row;
+  @apply absolute top-[85%] left-[50%] flex flex-col sm:flex-row justify-center items-center;
 }
 
 .btn {
-  @apply text-2xl text-white bg-[#171a200] font-medium uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.2rem] w-[25.5rem] h-16
- bg-opacity-80;
+  @apply text-2xl text-white bg-[#171a20] font-medium uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.2rem] w-[25.5rem] h-16 bg-opacity-80;
 }
 
 .inventory {
-  @apply text-[#393c41] bg-white bg-opacity-60 ml-8 lg:ml-8;
+  @apply text-[#393c41] bg-white bg-opacity-60 sm:ml-8;
 }
 
 .downSvg {
